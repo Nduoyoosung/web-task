@@ -1,0 +1,102 @@
+
+header{
+    background-color: rgb(18, 18, 107);
+    border-bottom: 7px solid red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 200px;
+
+}
+
+header h1{
+          color: white;
+          padding-top: 50px;
+          text-align: center;
+}
+
+header nav ul{
+              padding-top: 40px;
+              text-align: center;
+}
+
+header nav ul li{
+                 display: inline;
+                 padding: 40px;
+                 margin: 0% auto;
+
+}
+
+header nav ul li a{
+                   text-decoration: none;
+                   text-transform: uppercase;
+                   color: white;
+                   font-size: 20px;
+}
+
+header nav ul li a:hover{
+       background-color: rgb(136, 129, 129);
+       padding: 10px;
+       border-radius: 10px;
+
+}
+
+.roll{
+    background-color: rgba(23, 223, 163, 0.4);
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+main div p{
+    color: black;
+    margin: 50px;
+}
+
+main div h2{
+    padding: 20px;
+    color: black;
+}  
+
+
+/***footer style properties****/
+
+footer{
+    position: relative;
+    background-color: rgb( 6, 23, 29);
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sub{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#email{
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+}
+
+.submit{
+    position: absolute;
+    top: 50px;
+    left: 268px;
+    width: 80px;
+    height: 46px;
+    font-size: 15px;
+    border-radius: 0 10px 10px 0;
+    text-transform: capitalize;
+    background-color: red;
+}
+
+.ball{
+    color: white;
+    margin: 10px;
+}
+
+
